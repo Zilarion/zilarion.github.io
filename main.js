@@ -1,6 +1,6 @@
 var settings = {
-	w: 10000,
-	h: 6000,
+	w: window.innerWidth - 20,
+	h: window.innerHeight - 60,
 	t: 1.1
 }
 
