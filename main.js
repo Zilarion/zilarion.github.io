@@ -59,11 +59,11 @@ function update(data) {
 		.attr("x2", function (d) { return d.target.x; })
 		.attr("y2", function (d) { return d.target.y; })
 		.style("stroke", "grey" )
-    .attr( "opacity", 0 )
-		.transition()
-			.delay(function(d, i) { return i * 1 })
-    	.duration(1)
-    	.attr( "opacity", 1 );
+  //   .attr( "opacity", 0 )
+		// .transition()
+		// 	.delay(function(d, i) { return i * 1 })
+  //   	.duration(1)
+  //   	.attr( "opacity", 1 );
 }
 
 // greedy_spanner(g, 1.1);
